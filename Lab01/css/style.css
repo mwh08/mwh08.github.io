@@ -1,0 +1,252 @@
+/* Lab01 CSS page */
+
+body{
+    background-color: rgba(105, 159, 192, 0.952);
+}
+
+#homeNavLinks{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#navLinks{
+    /*padding: 20px;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5cm;
+}
+
+#email{
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 0;
+    display: block;
+}
+
+#homePic, #campus, #naitBrand{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+    padding-top: 0;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    
+}
+
+#nait{
+    text-align: center;
+    font-weight: bold;
+}
+
+td,th{
+    border: solid black;
+}
+
+table{    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+#goals{
+    font-size: x-large;
+}
+
+#hobbyPics, #quotes, .jokes{
+    object-fit: contain;
+    max-width: 95%;
+    min-width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+.comic, #angel, .volImg{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+#values{
+    font-size: xx-large;
+}
+
+@media screen and ( min-width : 800px ) {
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(20,auto);
+        grid-template-rows: repeat(40,auto);
+    }
+
+    #campus{
+        max-width: 80%;
+    }
+
+    #goals{
+        text-align: center;
+    }
+
+    #hobbys{
+        text-align: center;
+        font-size: larger;
+    }
+
+    .comic{
+        max-width: 95%;
+        min-width: none;
+        height: auto;
+        justify-content: none;
+        align-items: none;
+        margin: none;
+        display: grid;
+        padding-bottom: 0px;
+    }
+
+    #vi1{
+        grid-column:2/5;
+        grid-row:2/auto;
+        max-width: 80%;
+    }
+
+    #vi3{
+        grid-column:7/10;
+        grid-row:2/auto;
+        max-width: 80%;
+    }
+
+    #vi2{
+        grid-column:12/15;
+        grid-row:2/auto;
+        max-width: 80%;
+    }
+
+
+    #j2{/*crazy*/
+        grid-column:3/15;
+        grid-row:1/3;
+        
+    }
+
+    #j3{/*batmans parents*/
+        grid-column:1/2;
+        grid-row:1/11;
+        
+    }
+    #j4{/*r2*/
+        grid-column:3/9;
+        grid-row:4/10;
+        
+    }
+    #j5{/*dental plan*/
+        grid-column:9/15;
+        grid-row:16/18;
+        
+    }
+    #j6{/*penguin*/
+        grid-column:9/15;
+        grid-row:3/9;
+        
+    }
+    #j7{/*toater*/
+        grid-column:9/15;
+        grid-row:9/15;
+        
+    }
+    #j8{/*training*/
+        grid-column:1/2;
+        grid-row:10/17;
+        
+    }
+    #j9{/*scavenger*/
+        grid-column:3/9;
+        grid-row:11/13;
+        
+    }
+
+    #j10{/*award*/
+        grid-column:3/9;
+        grid-row:19/25;
+        
+    }
+
+    #j11{/*Davinci*/
+        grid-column:3/9;
+        grid-row:13/19;
+        
+    }
+
+    #j12{/*Firefly*/
+        grid-column:9/15;
+        grid-row:19/29;
+        
+    }
+
+    #j13{/*cats*/
+        grid-column:1/2;
+        grid-row:16/18;
+        
+    }
+
+    #j14{/*dinner*/
+        grid-column:1/1;
+        grid-row:18/23;
+        
+    }
+    #j15{/*training*/
+        grid-column:8/15;
+        grid-row:1/2;
+        
+    }
+
+    #j16{/*training*/
+        grid-column:8/15;
+        grid-row:1/2;
+        
+    }
+
+    #j17{/*training*/
+        grid-column:8/15;
+        grid-row:1/2;
+        
+    }
+
+    #j18{/*training*/
+        grid-column:8/15;
+        grid-row:1/2;
+        
+    }
+
+    #j19{
+        grid-column:8/15;
+        grid-row:1/2;
+        
+    }
+}
+
+
+
+
+/*#volImg{
+    max-width: 25%;
+}*/
